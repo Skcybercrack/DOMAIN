@@ -1,0 +1,64 @@
+Resources in android studio
+Drawable:
+
+The drawable folder holds all the images for your project. As a precaution, be sure to choose images of appropriate size and resolution. Images too large or with high resolution can cause your app to crash, so choose carefully. Android currently supports BMP, GIF, JPG, PNG, and WebP image formats. If the drawables folder is absent from your project, you can create it:
+
+Right-click the res folder
+Choose New
+Choose Android Resource Directory
+Name the directory drawable
+In the Available Qualifiers Section add drawable
+Click ok
+Refer to drawable resources in your XML files by calling:
+
+“@drawable/filename”
+Font:
+
+The font folder holds any custom font files you wish to use. Android currently supports ttf, otf, ttc, and xml font files. To create a font folder in your project:
+
+Right-click the res folder
+Choose New
+Choose Android Resource Directory
+Name the directory font
+Click ok
+Refer to font resources in your XML files by calling:
+
+“@font/filename”
+Layout:
+
+The layout folder holds all the XML layout files for your projects. To create a new layout file in your project:
+
+Right click on the layout folder
+Choose New
+Choose Layout Resource File
+Name your file
+Choose your Root Element
+Click ok
+Refer to layout resources in your Java files by calling:
+
+R.layout.activity_name
+Mipmap:
+
+The mipmap folder holds the icon image for your apps launcher. These should be only as large as necessary to support the devices you want to target for your app. If mipmap is absent from your project, you can add it:
+
+Right-click the res folder
+Choose New
+Choose Android Resource Directory
+Name the directory mipmap
+In the Resource Types Section add mipmap
+Click ok
+Any icon you choose to use as mipmap should be named ic_launcher and Android Studio will use the icon you provided.
+
+Raw:
+
+The raw folder holds media files such as video and audio. Android currently supports 3gp, mp4, m4a, aac, and ts audio file formats. Video file formats supported are 3gp, mp4, webm, and mkv. To create a raw folder:
+
+Right-click the res folder
+Choose New
+Choose Android Resource Directory
+Name the directory raw
+In the Resource Types Section add raw
+Click ok
+Refer to raw resources in your Java files by calling:
+
+R.raw.name
